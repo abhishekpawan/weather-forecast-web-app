@@ -4,11 +4,6 @@ var today = new Date();
 var dd = String(today.getDate()).padStart(2, '0');
 var yyyy = today.getFullYear();
 
-
-// today = dd + ',' + yyyy
-// document.write(today);
-
-
 const weekdays = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thrusday", "Friday", "Saturday", "Sunday", "Monday"]
 const monthNames = ["January", "February", "March", "April", "May", "June","July", "August", "September", "October", "November", "December"]
 var week = weekdays[today.getDay()]
@@ -35,11 +30,7 @@ weatherForm.addEventListener('submit', (e)=>{
 
     loadingContent.classList.toggle('d-none')
 
-    // loadingContent.innerHTML =""
-
-   
-
-    fetch(`http://localhost:3000/weather?address=${location}`).then((response) => {
+    fetch(`/weather?address=${location}`).then((response) => {
     response.json().then((data)=>{
         if(data.error && !data.error.message){
             loadingContent.classList.toggle('d-none')
@@ -48,7 +39,7 @@ weatherForm.addEventListener('submit', (e)=>{
             setTimeout(()=>{
                 document.querySelector('.error-1').classList.toggle('d-none')
 
-            },2000)
+            },3000)
         }
   
         else (
