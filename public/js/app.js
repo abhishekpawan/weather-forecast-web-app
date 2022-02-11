@@ -43,7 +43,6 @@ weatherForm.addEventListener('submit', (e)=>{
     response.json().then((data)=>{
         if(data.error && !data.error.message){
             loadingContent.classList.toggle('d-none')
-
             document.querySelector('.error-1').innerHTML = data.error
 
             setTimeout(()=>{

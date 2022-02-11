@@ -3,7 +3,6 @@ const express = require('express')
 const hbs = require('hbs')
 const request = require("request");
 const geocode = require("./utils/geocode");
-const wheather = require("./utils/weather");
 
 const app = express()
 
