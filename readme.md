@@ -30,7 +30,7 @@
 
 It is weather forecast web application, Which give you weather forecast of your desired location of the next 3 days. It's pure node and express based application. The frontend UI is developed using handlebars.
 
-#### It Give you weather forcast (Max/Min Temp) for upto 3 days. Including,
+#### You will get weather forcast (Max/Min Temp) for upto 3 days. Including:
 
 - Max and Min Temp
 
