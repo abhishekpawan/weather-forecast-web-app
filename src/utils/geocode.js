@@ -1,7 +1,11 @@
 const request = require("request");
 
+require('dotenv').config()
+
 const geocode = (address, callback) => {
-  const url = `http://api.weatherapi.com/v1/forecast.json?key=6938467492c04edeac641432221102&q=${encodeURIComponent(address)}&days=6&alerts=yes`
+  API_KEY = process.env.WEATHER_API_KEY
+  
+  const url = `http://api.weatherapi.com/v1/forecast.json?key=${API_KEY}&q=${encodeURIComponent(address)}&days=6&alerts=yes`
 
   request({ url, json: true }, (error, response) => {
     if (error) {
