@@ -28,7 +28,7 @@
 
 </div>
 
-It is weather forecast web application, Which give you weather forecast of your desired location of the next 3 days. It's pure node and express based application. The frontend UI is developed using handlebars.
+It is a weather forecast web application, Which give you weather forecast of your desired location for the next 3 days. It's pure node and express based application. The frontend UI is developed using handlebars.
 
 #### You will get weather forcast (Max/Min Temp) for upto 3 days. Including:
 
