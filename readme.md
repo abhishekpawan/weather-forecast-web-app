@@ -4,7 +4,7 @@
 
 <div align="center">
 
-<img  src="https://github.com/abhishekpawan/weather-forecast-website/blob/main/public/img/weatherforecastttile.png"  alt="Logo"  width="70%">
+<img  src="https://github.com/abhishekpawan/weather-forecast-web-app/blob/main/public/img/weatherforecasttitle.png"  alt="Logo"  width="70%">
 
 <h3 align="center">Weather Forecast App</h3>
 
