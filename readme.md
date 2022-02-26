@@ -10,17 +10,7 @@
 
 <p align="center">
 
-<br />
-
-<br />
-
-<a  href="https://abhi-weather-forecast-app.herokuapp.com/">View Demo</a>
-
-·
-
-<a  href="https://github.com/abhishekpawan/weather-forecast-website/issues">Report Bug</a>
-
-·
+<a  href="https://abhi-weather-forecast-app.herokuapp.com/">View Demo</a> | <a  href="https://github.com/abhishekpawan/weather-forecast-website/issues">Report Bug</a>
 
 </p>
 
