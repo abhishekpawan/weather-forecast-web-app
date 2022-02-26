@@ -34,7 +34,7 @@
 
 <div align="center">
 
-<img  src="https://github.com/abhishekpawan/weather-forecast-website/blob/main/public/img/weatherforecastmockups.png"  alt="Logo"  width="70%">
+<img  src="https://github.com/abhishekpawan/weather-forecast-web-app/blob/main/public/img/weatherforecastmockups.png"  alt="Logo"  width="70%">
 
 </div>
 
